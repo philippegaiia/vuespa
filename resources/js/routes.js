@@ -4,15 +4,20 @@ import Bookable from "./bookable/Bookable";
 
 const routes = [
     {
-        path:"/",
+        path: "/",
         component: Bookables,
         name: "home",
     },
     {
-        path:"/bookable/:id",
+        path: "/bookable/:id",
         component: Bookable,
         name: "bookable",
     },
+    // {
+    //     path: "/review/:id",
+    //     component: Review,
+    //     name: review
+    // }
 ];
 
 const router = new VueRouter({
