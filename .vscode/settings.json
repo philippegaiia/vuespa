@@ -1,0 +1,5 @@
+{
+  "vetur.format.options.tabSize": 3,
+  "phpfmt.detect_indent": true,
+  "editor.tabSize": 2
+}
